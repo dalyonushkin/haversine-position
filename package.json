@@ -9,7 +9,7 @@
     "test": "mocha",
     "test:cov": "nyc mocha",
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
-    "tsc": "tsc"
+    "tsc": "./node_modules/typescript/bin/tsc"
   },
   "keywords": [
     "haversine",
